@@ -306,3 +306,41 @@ button {
 button:hover {
     background-color: #0056b3; /* Cor do botão no hover */
 }
+.galeria2 {
+    text-align: center; /* Alinha o texto no centro */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+.galeria2 .gallery-title {
+    font-size: 2em; /* Tamanho do título */
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.galeria2 .gallery-grid {
+    display: flex; /* Usar flexbox para a disposição das imagens */
+    justify-content: center; /* Centraliza as imagens */
+    gap: 10px; /* Espaçamento entre as imagens */
+}
+
+.galeria2 .gallery-item {
+    flex: 0 0 calc(25% - 10px); /* Define a largura das miniaturas */
+}
+
+.galeria2 .gallery-item img {
+    width: 100%; /* Imagem ocupa 100% da largura do item */
+    border-radius: 5px; /* Bordas arredondadas para miniaturas */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .galeria2 .gallery-item {
+        flex: 0 0 calc(50% - 10px); /* Em telas menores, duas imagens por linha */
+    }
+}
+
+@media (max-width: 480px) {
+    .galeria2 .gallery-item {
+        flex: 0 0 100%; /* Em telas muito pequenas, uma imagem por linha */
+    }
+}
