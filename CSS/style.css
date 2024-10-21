@@ -418,9 +418,12 @@ button:hover {
     border: 2px solid #333; /* Cor e espessura da borda */
     border-radius: 8px; /* Bordas arredondadas */
     padding: 20px; /* Espaçamento interno */
-    margin: 20px 0; /* Margem superior e inferior */
+    margin: 20px auto; /* Margem automática para centralizar */
     background-color: #f9f9f9; /* Cor de fundo suave */
+    max-width: 800px; /* Largura máxima para a seção */
+    text-align: center; /* Alinha o texto no centro */
 }
+
 
 .styled-section h2, 
 .styled-section h3 {
