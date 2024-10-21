@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -421,11 +422,7 @@ button:hover {
     margin: 20px auto; /* Margem automática para centralizar */
     background-color: #f9f9f9; /* Cor de fundo suave */
     max-width: 800px; /* Largura máxima para a seção */
-    text-align: center; /* Alinha o texto no centro */ 
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
+    text-align: center; /* Alinha o texto no centro */
 }
 
 
@@ -438,3 +435,4 @@ button:hover {
 .styled-section p {
     margin: 10px 0; /* Margem superior e inferior para parágrafos */
 }
+
