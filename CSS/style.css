@@ -285,6 +285,14 @@ color: #ff6347;
     opacity: 1; /* Aumenta a opacidade da imagem ativa */
     filter: grayscale(0%); /* Remove o filtro de escala de cinza da imagem ativa */
 }
+.gallery .gallery-item img {
+    transition: transform 0.3s; /* Transição suave */
+}
+
+.gallery .gallery-item:hover img {
+    transform: scale(1.05); /* Aumenta a imagem ao passar o mouse */
+}
+
 
 .buttons {
     display: flex;
