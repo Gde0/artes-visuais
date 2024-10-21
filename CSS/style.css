@@ -421,7 +421,11 @@ button:hover {
     margin: 20px auto; /* Margem automática para centralizar */
     background-color: #f9f9f9; /* Cor de fundo suave */
     max-width: 800px; /* Largura máxima para a seção */
-    text-align: center; /* Alinha o texto no centro */
+    text-align: center; /* Alinha o texto no centro */ 
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 
