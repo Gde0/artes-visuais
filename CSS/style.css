@@ -414,3 +414,21 @@ button:hover {
 #ferramentas li {
     margin-bottom: 10px;
 }
+.styled-section {
+    border: 2px solid #333; /* Cor e espessura da borda */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    margin: 20px 0; /* Margem superior e inferior */
+    background-color: #f9f9f9; /* Cor de fundo suave */
+}
+
+.styled-section h2, 
+.styled-section h3 {
+    border-bottom: 1px solid #ccc; /* Linha abaixo dos títulos */
+    padding-bottom: 10px; /* Espaçamento abaixo dos títulos */
+}
+
+.styled-section p {
+    margin: 10px 0; /* Margem superior e inferior para parágrafos */
+}
+
