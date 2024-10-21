@@ -332,15 +332,3 @@ button:hover {
     border-radius: 5px; /* Bordas arredondadas para miniaturas */
 }
 
-/* Responsividade */
-@media (max-width: 768px) {
-    .galeria2 .gallery-item {
-        flex: 0 0 calc(50% - 10px); /* Em telas menores, duas imagens por linha */
-    }
-}
-
-@media (max-width: 480px) {
-    .galeria2 .gallery-item {
-        flex: 0 0 100%; /* Em telas muito pequenas, uma imagem por linha */
-    }
-}
